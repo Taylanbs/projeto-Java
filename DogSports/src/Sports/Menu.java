@@ -32,7 +32,24 @@ public class Menu {
         switch(op) {
         case 1:
         	System.out.println("Criar Produto");
-        	
+        	break;
+        case 2:
+        	System.out.println("Listar Produtos");
+        	break;
+        case 3:
+        	System.out.println("Buscar Produtos");
+        	break;
+        case 4:
+        	System.out.println("Atualizar Produtos");
+        	break;
+        case 5:
+        	System.out.println("Apagar Produto");
+        	break;
+        case 6:
+        	System.out.println("Sair");
+        	break;
+        	default: 
+        		System.out.println("Favor escolher uma opção válida");
         }
         
 		}while(op != 6);
